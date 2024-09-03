@@ -1,0 +1,15 @@
+<?xml version="1.0.0"?>
+    <package>
+    <name>arebot_bringup</name>
+    <version>1.0.0</version>
+    <description>The arebot_bringup package</description>
+    <maintainer email="picy2018@outlook.com">picy</maintainer>
+
+    <license>BSD</license>
+
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <export>
+    </export>
+</package>

@@ -1,0 +1,39 @@
+<launch>
+    <include file="$(find robot_description)/launch/robot_description.launch"></include> 
+    <node pkg="nodelet" type="nodelet" name="arebot_nodelet_manager" args="manager"/>
+
+    <node pkg="nodelet" type="nodelet" name="arebot_control"
+          args="load AREBot_ROS/BotControlNode arebot_nodelet_manager">
+        <rosparam file="$(find arebot_base)/params/control_board.yaml"/>
+    </node>
+
+    <node pkg="nodelet" type="nodelet" name="arebot_base"
+          args="load AREBot_ROS/BaseNode arebot_nodelet_manager">
+        <rosparam file="$(find arebot_base)/params/base.yaml"/>
+    </node>
+
+    <rosparam command="load" file="$(find arebot_base)/params/controller_manager.yaml"/>
+    <node name="controller_spawner"
+          pkg="controller_manager"
+          type="spawner"
+          output="screen"
+          args="mobile_base_controller joint_state_controller">
+    </node>
+
+    <node pkg="nodelet"
+          type="nodelet"
+          name="ekf_se"
+          output="screen"
+          args="load RobotLocalization/EkfNodelet arebot_nodelet_manager"
+    >
+        <rosparam command="load" file="$(find arebot_base)/params/robot_localization_ekf.yaml"/>
+    </node>
+
+    <node pkg="nodelet" type="nodelet" name="arebot_safety_controller"
+          args="load AREBot_ROS/SafetyControllerNode arebot_nodelet_manager"/>
+
+    <node pkg="nodelet" type="nodelet" name="yocs_cmd_vel_mux"
+          args="load yocs_cmd_vel_mux/CmdVelMuxNodelet arebot_nodelet_manager">
+        <param name="yaml_cfg_file" value="$(find arebot_base)/params/yocs_cmd_vel_mux.yaml"/>
+    </node>
+</launch>

@@ -1,0 +1,46 @@
+/**
+ * Request sent from host to the control board.
+ *
+ * Copyright 2021 Chuanhong Guo <gch981213@gmail.com>
+ */
+syntax = "proto3";
+
+message BotRequest {
+  oneof body {
+    IMUInit imu_init = 1;
+    BusRequest bus_request = 2;
+    BusBaudrate bus_baudrate = 3;
+    OLEDWrite oled_write = 4;
+  }
+}
+
+message IMUInit {
+  bool self_test = 1;
+  uint32 report_frequency = 2;
+}
+
+message BusRequest {
+  uint32 bus_id = 1;
+  uint32 tx_len = 2;
+  uint32 rx_len = 3;
+}
+
+message BusBaudrate {
+  uint32 bus_id = 1;
+  uint32 baudrate = 2;
+  enum Parity {
+    PAR_8E1 = 0;
+    PAR_8N2 = 1;
+    PAR_8N1 = 3;
+  }
+  Parity parity = 3;
+}
+
+message OLEDWrite {
+  uint32 page_start = 1;
+  uint32 page_end = 2;
+  uint32 col_start = 3;
+  uint32 col_end = 4;
+  uint32 data_len = 5;
+  bool is_string = 6;
+}

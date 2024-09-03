@@ -1,0 +1,2 @@
+bus_service_name: "/arebot_control/bus_op"
+arm_bus: 2

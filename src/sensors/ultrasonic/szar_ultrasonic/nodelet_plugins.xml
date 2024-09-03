@@ -1,0 +1,7 @@
+<library path="lib/libszar_ultrasonic">
+    <class name="AREBot_ROS/UltrasonicNode" type="AREBot_ROS::UltrasonicNode" base_class_type="nodelet::Nodelet">
+        <description>
+            Node publishing data from ultrasonic range sensors attached to the control board.
+        </description>
+    </class>
+</library>

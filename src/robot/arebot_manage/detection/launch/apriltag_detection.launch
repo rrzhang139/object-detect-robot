@@ -1,0 +1,20 @@
+
+
+<launch>
+  <!-- Start USB camera (if not already running in another launch file) -->
+  <!-- Start AprilTag detector -->
+  <node pkg="apriltag_ros" type="apriltag_ros_continuous_node" name="apriltag_ros_continuous_node" output="screen">
+    <remap from="image_rect" to="/usb_cam/image_raw" />
+    <remap from="camera_info" to="/usb_cam/camera_info" />
+    <param name="publish_tag_detections_image" type="bool" value="true" />
+    <rosparam command="load" file="$(find detection)/config/settings.yaml"/>
+    <rosparam command="load" file="$(find detection)/config/tags.yaml"/>
+  </node>
+
+  <!-- Start our custom AprilTag listener node -->
+  <node pkg="detection" type="apriltag_listener.py" name="apriltag_listener" output="screen">
+  </node>
+</launch>
+
+
+

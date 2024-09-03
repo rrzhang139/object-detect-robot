@@ -1,0 +1,7 @@
+port: /dev/smart_car
+bus_baudrates:
+ -
+  bus_id: 1
+  baudrate: 115200
+  stop: 1
+  parity: N

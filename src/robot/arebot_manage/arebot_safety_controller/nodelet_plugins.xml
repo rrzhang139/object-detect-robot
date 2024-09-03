@@ -1,0 +1,7 @@
+<library path="lib/libarebot_safety_controller">
+    <class name="AREBot_ROS/SafetyControllerNode" type="AREBot_ROS::SafetyControllerNode" base_class_type="nodelet::Nodelet">
+        <description>
+            Node publishing recovery velocity commands when bumpers are hit.
+        </description>
+    </class>
+</library>

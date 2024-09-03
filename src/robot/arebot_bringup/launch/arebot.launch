@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find arebot_base)/launch/arebot_base.launch"/>
+	<!--include file="$(find arebot_bringup)/launch/include/lidar/ls01d.launch"/-->
+	<!--include file="$(find szar_ultrasonic)/launch/ultrasonic_sensor.launch"/-->
+	<include file="$(find ls01b_v2)/launch/ls01b_v2.launch"/>
+</launch>

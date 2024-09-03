@@ -1,0 +1,772 @@
+    1  mkdir build
+    2  cd build/
+    3  cmake ..
+    4  suao make install
+    5  sudo make install
+    6  make ..
+    7  make
+    8  make .
+    9  sudo cp -r /usr/local/include/eigen3 /usr/include
+   10  pkg-config --modversion eigen3
+   11  cd ..
+   12  ./install
+   13  ls
+   14  INSTALL
+   15  sudo apt-get update  
+   16  sudo make installsudo apt-get install libusb-1.0-0-dev libusb-dev libudev-dev
+   17  sudo apt-get install libusb-1.0-0-dev libusb-dev libudev-dev
+   18  sudo apt-get update  
+   19  sudo apt-get install git build-essential linux-libc-dev
+   20  sudo apt-get update  
+   21  sudo apt-get install git build-essential linux-libc-dev
+   22  sudo apt-get install cmake cmake-gui
+   23  sudo apt-get install libeigen3-dev
+   24  sudo apt-get install openjdk-8-jdk openjdk-8-jre
+   25  sudo apt-get install libboost-all-dev
+   26  sudo apt-get install mpi-default-dev openmpi-bin openmpi-common
+   27  sudo apt-get install libflann1.9 libflann-dev
+   28  sudo apt-get install libvtk6.3-qt libvtk6.3 libvtk6-dev
+   29  sudo apt-get install libqhull* libgtest-dev
+   30  sudo apt-get install freeglut3-dev pkg-config
+   31  sudo apt-get install libxmu-dev libxi-dev
+   32  sudo apt-get install mono-complete
+   33  sudo apt-get install openjdk-8-jdk openjdk-8-jre
+   34  sudo mv /usr/include/flann/ext/lz4.h /usr/include/flann/ext/lz4.h.bak
+   35  sudo mv /usr/include/flann/ext/lz4hc.h /usr/include/flann/ext/lz4hc.h.bak
+   36  sudo ln -s /usr/include/lz4.h /usr/include/flann/ext/lz4.h
+   37  sudo ln -s /usr/include/lz4hc.h /usr/include/flann/ext/lz4hc.h
+   38  sudo gedit ~/.bashrc
+   39  sudo dpkg -i teamviewer_15.51.5_arm64.deb 
+   40  teamviewer 
+   41  cmake ..
+   42  make -j4
+   43  sudo make install
+   44  source /opt/ros/melodic/setup.sh 
+   45  cd
+   46  cd ws_livox/src/livox_ros_driver2/
+   47  ls
+   48  ./build.sh ROS1
+   49  cd
+   50  cd ws_tmpt/
+   51  catkin_make -j4
+   52  ls
+   53  cd src/FAST_LIO/
+   54  cd
+   55  cd ws_livox/
+   56  source devel/setup.bash 
+   57  cd
+   58  cd ws_tmpt/
+   59  catkin_make -j4
+   60  cd
+   61  cd nvs_ws/
+   62  catkin_make
+   63  cd ws_livox/
+   64  source devel/setup.bash 
+   65  roslaunch livox_ros_driver2 rviz_MID360.launch 
+   66  source devel/setup.bash 
+   67  roslaunch livox_ros_driver2 rviz_MID360.launch 
+   68  rostopic list
+   69  source devel/setup.bash 
+   70  roslaunch livox_ros_driver2 rviz_MID360.launch 
+   71  ping 192.168.1.119
+   72  ping 192.168.1.127
+   73  ping 192.168.1.119
+   74  ping 192.168.1.127
+   75  ping 192.168.1.119
+   76  ping 192.168.1.1
+   77  ping 192.168.1.119
+   78  ping 192.168.1.127
+   79  ping 192.168.1.119
+   80  ping 192.168.1.127
+   81  ifconfig
+   82  sudo ethtool eth0
+   83  sudo apt-get install iftop
+   84  sudo iftop
+   85  sudo apt-get install bmon
+   86  bmon
+   87  ifconfig
+   88  cd ws_livox/
+   89  source devel/setup.bash 
+   90  roslaunch livox_ros_driver2 rviz_MID360.launch 
+   91  rostopic lisy
+   92  rostopic list
+   93  ping 192.168.1.119
+   94  cd ws_livox/
+   95  source devel/setup.bash 
+   96  roslaunch livox_ros_driver2 rviz_MID360.launch 
+   97  ifconfig
+   98  roslaunch livox_ros_driver2 rviz_MID360.launch 
+   99  ifconfig
+  100  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  101  rostopic list
+  102  rostopic echo /livox/lidar 
+  103  ifconfig
+  104  source devel/setup.bash 
+  105  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  106  rostopic list
+  107  cd ws_livox/
+  108  source devel/setup.bash 
+  109  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  110  rostopic echo /livox/lid
+  111  rostopic echo /livox/lidar 
+  112  catkin_make
+  113  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  114  cd ws_livox/
+  115  source devel/setup.bash 
+  116  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  117  cd ws_livox/
+  118  source devel/setup.bash 
+  119  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  120  ifconfig
+  121  cd ws_livox/
+  122  source devel/setup.bash 
+  123  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  124  rostopic list
+  125  source devel/setup.bash 
+  126  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  127  rostopic list
+  128  source devel/setup.bash 
+  129  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  130  catkin_make -j4
+  131  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  132  sudo netplan apply
+  133  sdu apt-get install nettools
+  134  sudo apt-get install nettools
+  135  sudo apt-get install netplan
+  136  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  137  sudo netplan apply
+  138  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  139  python rviz_MID3602_launch.py 
+  140  ping 192.168.1.119
+  141  ping 192.168.1.127
+  142  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  143  cd ws_livox/
+  144  catkin_make
+  145  rosnode list
+  146  roslaunch livox_ros_driver2 rviz_MID360_2.launch 
+  147  ping 192.168.1.252
+  148  roslaunch livox_ros_driver2 rviz_MID360_2.launch 
+  149  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  150  ./build.sh ROS1
+  151  source devcd
+  152  cd
+  153  cd ws_livox/
+  154  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  155  sudo netplan apply
+  156  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  157  roslaunch livox_ros_driver2 rviz_MID360_2.launch 
+  158  roslaunch livox_ros_driver2 rviz_MID360_2.launch 
+  159  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  160  roslaunch livox_ros_driver2 rviz_MID360_2.launch 
+  161  roslaunch livox_ros_driver2 rviz_MID360.launch 
+  162  rostopic list
+  163  roslaunch livox_ros_driver2 rviz_MID360_2.launch 
+  164  ls
+  165  pip
+  166  apt-get list
+  167  ls
+  168  apt-get list
+  169  sudo apt-get install pip
+  170  sudo apt-get install python-pip
+  171  pip
+  172  nvcc --verion
+  173  nvcc --version
+  174  pip list
+  175  dpkg
+  176  dpkg --get-selections
+  177  pip install numpy torch torchvision torchaudio
+  178  python --version
+  179  sudo apt install python3
+  180  python --version
+  181  sudo apt autoremove
+  182  python --version
+  183  sudo apt install python3
+  184  python --version
+  185  python3 --version
+  186  sudo apt update
+  187  vim ~/.bashrc
+  188  source ~/.bashrc
+  189  pip
+  190  pip install --upgrade python=3.8
+  191  pip install --upgrade python==3.8
+  192  sudo apt install python3.8
+  193  python3 --version
+  194  python --version
+  195  python3 --version
+  196  python3.8
+  197  python3.8 --version
+  198  vim ~/.bashrc
+  199  lsb_release
+  200  lsb_release -a
+  201  dpkg -l | grep tensorrt
+  202  dpkg -l | grep tensor
+  203  nvidia-smi
+  204  sudo apt install nvidia-cudnn
+  205  ls
+  206  cd jetsonUtilities/
+  207  ls
+  208  python jetsonInfo.py 
+  209  cd
+  210  cd /usr
+  211  ls
+  212  cd local
+  213  ls
+  214  cd cuda
+  215  ls
+  216  nvcc
+  217  vim ~/.bashrc
+  218  source ~/.bashrc
+  219  nvcc
+  220  cd
+  221  ls
+  222  unzip OpenCV_4_4_0_for_Jetson.zip 
+  223  cd OpenCV_4_4_0_for_Jetson/
+  224  ls
+  225  sudo ./opencv-install.sh
+  226  cd ..
+  227  cd jetsonUtilities/
+  228  python jetsonInfo.py 
+  229  vim install_pytorch.sh 
+  230  wget https://nvidia.box.com/shared/static/cs3xn3td6sfgtene6jdvsxlr366m2dhq.whl -O torch-1.7.0-cp36-cp36m-linux_aarch64.whl
+  231  sudo apt-get install python3-pip libopenblas-base libopenmpi-dev
+  232  pip3 install Cython
+  233  pip3 install numpy torch-1.7.0-cp36-cp36m-linux_aarch64.whl
+  234  sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev
+  235  git clone --branch v0.8.1 https://github.com/pytorch/vision torchvision
+  236  留言
+  237  git clone --branch v0.8.1 https://github.com/pytorch/vision torchvision
+  238  pip list | torch
+  239  pip list | grep torch
+  240  pip list | grep torchvision
+  241  pip install torchvision
+  242  pip list | grep torchvision
+  243  pip list | grep nump
+  244  vim ~/.bashrc
+  245  cd ..
+  246  ls
+  247  cd opt/ros
+  248  cd opt
+  249  cd /opt/
+  250  ls
+  251  vim ~/.bashrc
+  252  source ~/.bashrc
+  253  cd
+  254  ls
+  255  cd jetsonUtilities/
+  256  python jetsonInfo.py 
+  257  pip instaqll tensorrt
+  258  pip install tensorrt
+  259  pip install nvidiatensorrt
+  260  pip install nvidia-tensorrt
+  261  $ sudo echo "deb https://repo.download.nvidia.com/jetson/common r32.7 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list
+  262  $ sudo echo "deb https://repo.download.nvidia.com/jetson/t194 r32.7 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list
+  263  $ sudo apt update
+  264  sudo echo "deb https://repo.download.nvidia.com/jetson/common r32.7 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list
+  265  apt-get install python3-libnvinfer
+  266  sudo apt-get install python3-libnvinfer
+  267  python
+  268  pip list | grep tensorrt
+  269  pip list | grep num
+  270  ls
+  271  cd ..
+  272  ls
+  273  mkdir object_detection_project
+  274  cd object_detection_project/
+  275  ls /dev
+  276  ls /dev/video0 
+  277  git clone --recursive https://github.com/dusty-nv/jetson-inference
+  278  ls
+  279  cd jetson-inference-master/
+  280  ls
+  281  docker/run.sh 
+  282  git init
+  283  git remote add https://github.com/dusty-nv/jetson-inference
+  284  git remote add origin https://github.com/dusty-nv/jetson-inference
+  285  git submodule init
+  286  git submodule update --init --recursive
+  287  docker/run.sh 
+  288  cd ..
+  289  ls
+  290  git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference
+  291  git clone --depth=1 https://github.com/dusty-nv/jetson-inference
+  292  git config --global core.compression 0
+  293  git clone --depth=1 https://github.com/dusty-nv/jetson-inference
+  294  git config --global http.postBuffer 524288000
+  295  git clone --depth=1 https://github.com/dusty-nv/jetson-inference
+  296  git --version
+  297  sudo apt update
+  298  sudo apt install git
+  299  git --version
+  300  git --upgrade
+  301  sudo apt install --upgrade git
+  302  ls
+  303  cd jetson-inference-master/
+  304  ls
+  305  git
+  306  git submodule update --init
+  307  docker/run.sh 
+  308  vim docker/run.sh 
+  309  cd ..
+  310  git clone https://github.com/dusty-nv/jetson-containers
+  311  wget google.com
+  312  ls
+  313  git --version
+  314  git config --global protocol.version 2
+  315  git clone https://github.com/dusty-nv/jetson-containers
+  316  git clone https://github.com/octocat/Hello-World
+  317  git config --global protocol.version 0
+  318  git clone https://github.com/octocat/Hello-World
+  319  ls
+  320  rm -rf Hello-World/
+  321  ifconfig
+  322  git config --global protocol.version 1
+  323  git clone https://github.com/octocat/Hello-World
+  324  rm -rf Hello-World/
+  325  git clone https://github.com/dusty-nv/jetson-containers
+  326  git clone https://github.com/microsoft/docker.git
+  327  git clone https://github.com/rrzhang139/numpyviz
+  328  video-viewer /dev/video0
+  329  git clone https://github.com/rrzhang139/numpyviz
+  330  Echo $ARCH
+  331  echo $ARCH
+  332  uname
+  333  uname -m
+  334  cd jetson-inference-master/
+  335  ls
+  336  export ARCH=aarch64
+  337  sh docker/run.sh 
+  338  docker/run.sh 
+  339  ls
+  340  git submodule update --init
+  341  git remote 
+  342  git remote list
+  343  git remote -v
+  344  git remote
+  345  git fetch origin main:.gitmodules
+  346  git fetch origin main
+  347  git fetch origin master:.gitmodules
+  348  git fetch origin master
+  349  git config --global unset http.proxy
+  350  git config --global --unset http.proxy
+  351  git config --global --unset https.proxy
+  352  git fetch origin master
+  353  traceroute github.com
+  354  git config list
+  355  git config --global --unset protocol.version
+  356  sudo apt install git
+  357  sysctl
+  358  sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+  359  git fetch origin master
+  360  git config --global credential.helper ""
+  361  git config --global http.sslVerify false
+  362  git fetch origin master
+  363  env
+  364  env | grep -i proxy
+  365  git submodule init
+  366  git submodule update --init --recursive
+  367  ls
+  368  vim .gitmodules
+  369  ls
+  370  cd docker/
+  371  ls
+  372  cd containers/
+  373  ls
+  374  git submodule update --init --recursive --force
+  375  git submodule foreach --recursive git reset --hard
+  376  git submodule update --init --recursive --force
+  377  ls
+  378  cd ..
+  379  cd .git
+  380  ls
+  381  cd refs/
+  382  ls
+  383  cd ..
+  384  ls
+  385  vim config 
+  386  cd ..
+  387  gh repo clone dusty-nv/jetson-inference
+  388  git config --list --global
+  389  ssh-keygen -t rsa -b 4096 -C "rzhang139@gmail.com"
+  390  cd ~/.ssh
+  391  ls
+  392  vim id_rsa.pub 
+  393  ssh -T github.com
+  394  ssh-add ~/.ssh/id_rsa
+  395  ssh -T github.com
+  396  cd
+  397  ls
+  398  cd object_detection_project/
+  399  ls
+  400  git clone git@github.com:dusty-nv/jetson-inference.git
+  401  ssh-keygen -t ed25519 -C "rzhang139@gmail.com
+  402  "
+  403  ls
+  404  cd ~/.ssh
+  405  ls
+  406  vim id_ed25519.pub 
+  407  cd 
+  408  cd object_detection_project/
+  409  git clone git@github.com:dusty-nv/jetson-inference.git
+  410  git config --global url."git@github.com:".insteadOf "https://github.com/"
+  411  git clone git@github.com:dusty-nv/jetson-inference.git
+  412  git config --global --unset url
+  413  git config list
+  414  git config --list
+  415  vim ~/.gitconfig
+  416  git clone git@github.com:dusty-nv/jetson-inference.git
+  417  git clone --recursive git@github.com:dusty-nv/jetson-inference.git
+  418  ls
+  419  rm -rf jetson-inference-master
+  420  cd jetson-inference/
+  421  ls
+  422  docker/run.sh 
+  423  docker run --help
+  424  sudo systemctl daemon-reload
+  425  sudo systemctl restart docker
+  426  docker/run.sh 
+  427  nvidia-smi
+  428  sudo apt install -y nvidia-docker2
+  429  docker/run.sh 
+  430  curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+  431  distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+  432  curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+  433  sudo apt-get update
+  434  sudo apt-get install -y nvidia-docker2
+  435  docker/run.sh 
+  436  sudo systemctl daemon-reload
+  437  sudo systemctl restart docker
+  438  docker/run.sh 
+  439  curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+  440  distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+  441  curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+  442  sudo apt-get install -y nvidia-docker2
+  443  docker/run.sh 
+  444  cd
+  445  cd jetsonUtilities/
+  446  python jetsonInfo.py 
+  447  cd ..
+  448  ls
+  449  cd object_detection_project/
+  450  cd jetson-inference/
+  451  ls
+  452  sudo systemctl restart nvidia-docker
+  453  sudo systemctl daemon-reload 
+  454  sudo systemctl restart docker
+  455  docker system prune -a 
+  456  sudo docker system prune -a 
+  457  vim /etc/docker/daemon.json 
+  458  docker/run.sh 
+  459  vim /etc/docker/daemon.json 
+  460  docker/run.sh 
+  461  mkdir build
+  462  cd build
+  463  cmake ../
+  464  ls
+  465  cd examples/
+  466  ls
+  467  cd ..
+  468  ls
+  469  cd aarch64/
+  470  ls
+  471  cd bin/
+  472  ls
+  473  video-viewer /dev/video0
+  474  python video-viewer /dev/video0
+  475  python video-viewer.py /dev/video0
+  476  cd ..
+  477  ls
+  478  sudo make install
+  479  videoviewer
+  480  video-viewer
+  481  video-viewer /dev/video0
+  482  sudo ldconfig
+  483  video-viewer /dev/video0
+  484  cd ..
+  485  cd build/aarch64/bin
+  486  ls
+  487  ./detectnet "images/cat_*.jpg" images/test/cat_%i.jpg
+  488  ls
+  489  cd networks
+  490  ls
+  491  cd SSD-Mobilenet-v2/
+  492  ls
+  493  cd ..
+  494  vim models.json 
+  495  cd ..
+  496  ls
+  497  cd images
+  498  ls
+  499  cd ..
+  500  ls
+  501  pwd
+  502  video-viewer
+  503  video-viewer /dev/video0
+  504  find /opt/ros/melodic -name catkin_make
+  505  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+  506  source ~/.bashrc
+  507  vim ~/.bashrc
+  508  LS
+  509  ls'
+  510  cuda
+  511  apt list
+  512  apt list | grep jetpack
+  513  ls
+  514  cd /usr/local/
+  515  ls
+  516  cd bin
+  517  ls
+  518  cd ..
+  519  cd src
+  520  ls
+  521  cd ..
+  522  nvcc --version
+  523  dpkg -l | grep cuda
+  524  dpkg -s | grep cuda
+  525  ls
+  526  cd src
+  527  ls
+  528  cd ..
+  529  cd bin/
+  530  ls
+  531  cd ..
+  532  cd lib/
+  533  ls
+  534  cd ..
+  535  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  536  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  537  pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
+  538  pip install torch==
+  539  sudo jetson_release
+  540  pip list |grep nump
+  541  pip list | grep nump
+  542  pip3
+  543  vim ~/.basrc
+  544  vim ~/.bashrc
+  545  pip
+  546  source ~/.bashrc
+  547  pip
+  548  sudo apt install pip3
+  549  sudo apt install python-pip3
+  550  sudo apt install python3-pip
+  551  pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
+  552  pip install torch==
+  553  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  554  sudo apt-cache show nvidia-jetpack
+  555  dpkg -l | grep -i 'jetpack'
+  556  dpkg -l | grep 'nvidia-l4t-core'
+  557  dpkg-query --show nvidia-l4t-core
+  558  sudo apt-get -y update; 
+  559  sudo apt-get -y install python3-pip libopenblas-dev;
+  560  export TORCH_INSTALL=https://developer.download.nvidia.cn/compute/redist/jp/v511/pytorch/torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64.whl
+  561  python3 -m pip install --upgrade pip; python3 -m pip install numpy==’1.26.1’; python3 -m pip install --no-cache $TORCH_INSTALL
+  562  sudo apt-get -y update; 
+  563  sudo apt-get -y install python3-pip libopenblas-dev;
+  564  git clone https://github.com/jetsonhacks/jetsonUtilities.git
+  565  cd jetsonUtilities
+  566  python jetsonInfo.py
+  567  https://github.com/jetsonhacks/jetsonUtilities.git
+  568  git clone https://github.com/jetsonhacks/jetsonUtilities.git
+  569  sudo chown -R $USER /var/www
+  570  echo $USER
+  571  cd
+  572  ls
+  573  git clone https://github.com/jetsonhacks/jetsonUtilities.git
+  574  cd jetsonUtilities
+  575  python jetsonInfo.py
+  576  sudo apt-cache show nvidia-jetpack
+  577  find pool/main/n/nvidia-jetpack/nvidia-jetpack_4.6.2-b5_arm64.deb
+  578  find -d pool
+  579  sudo apt install nvidia-cuda
+  580  sudo apt install nvidia-cudnn
+  581  sudo apt install CUDNN-CUDA
+  582  sudo apt install cudnn8-cuda-10
+  583  sudo apt-get install cudnn8-cuda-10
+  584  wget https://developer.download.nvidia.com/compute/cuda/repos/$distro/$arch/cuda-keyring_1.1-1_all.deb
+  585  nvcc
+  586  python jetsonInfo.py 
+  587  sudo apt install nvidia-opencv
+  588  python jetsonInfo.py 
+  589  vim jetsonInfo.py 
+  590  apt list | opencv
+  591  apt list | grep opencv
+  592  vim install_opencv.sh
+  593  sh install_opencv.sh 
+  594  los
+  595  ls
+  596  rm install_opencv.sh 
+  597  cd ..
+  598  git clone https://github.com/AastaNV/JEP.git
+  599  ls
+  600  sh install_opencv4.6.0_Jetson.sh 
+  601  cd jetsonUtilities/
+  602  vim install_pytorch.sh
+  603  sh install_pytorch.sh 
+  604  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  605  python3 -m pip install --upgrade pip; python3 -m pip install numpy==’1.26.1’; python3 -m pip install --no-cache $TORCH_INSTALL
+  606  sh install_pytorch.sh 
+  607  python jetsonInfo.py 
+  608  sudo apt install nvidia-tensorrt
+  609  python
+  610  source ~/.bashrc
+  611  python
+  612  pip install torch
+  613  source ~/.bashrc
+  614  pip install torch
+  615  python 
+  616  pip3 uninstall torch
+  617  pip3 install --upgrade torchvision==1.8
+  618  pip3 install --upgrade torch==1.8
+  619  python
+  620  pip install --upgrade numpy
+  621  python
+  622  pip cache purge
+  623  pip install --upgrade numpy
+  624  python 
+  625  pip3 install numpy==1.19.4
+  626  python 
+  627  pip install --upgrade torch==1.9.0
+  628  pip install --upgrade torchvision==0.10.0
+  629  python
+  630  GIT_TRACE=1 GIT_TRANSFER_TRACE=1 GIT_CURL_VERBOSE=1 git clone https://github.com/github/debug-repo /tmp/debug-repo-http
+  631  GIT_TRACE=1 GIT_TRANSFER_TRACE=1 GIT_CURL_VERBOSE=1 git clone git@github.com:github/debug-repo /tmp/debug-repo-ssh
+  632  ping -c 10 github.com
+  633  traceroute github.com
+  634  curl -s -o/dev/null -w "downloadspeed: %{speed_download} | dnslookup: %{time_namelookup} | connect: %{time_connect} | appconnect: %{time_appconnect} | pretransfer: %{time_pretransfer} | starttransfer: %{time_starttransfer} | total: %{time_total} | size: %{size_download}\n" https://github.com
+  635  ping -c 10 github.com
+  636  cd
+  637  cd object_detection_project/
+  638  cd jetson-inference-master/
+  639  vim docker/run.sh 
+  640  cd
+  641  (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) && sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+  642  export GIT_HTTP_LOW_SPEED_LIMIT=10000
+  643  export GIT_HTTP_LOW_SPEED_TIME=300
+  644  cd object_detection_project/
+  645  ls
+  646  cd jetson-inference
+  647  ls
+  648  cd ..
+  649  rm -rf jetson-inference
+  650  cd jetson-inference-master/
+  651  ls
+  652  cd ..
+  653  git clone https://github.com/dusty-nv/jetson-inference.git
+  654  git clone https://github.com/octocat/Hello-World.git
+  655  man systemctl
+  656  ls
+  657  cd jetson-inference/
+  658  ls
+  659  cd 
+  660  ls
+  661  cd cd jetsonUtilities/
+  662  python jetsonUtilities/
+  663  cd jetsonUtilities/
+  664  python jetsonInfo.py 
+  665  sudo apt install nvidia-tensorrt
+  666  python jetsonInfo.py 
+  667  sudo apt install nvidia-visionworks
+  668  python jetsonInfo.py 
+  669  sudo apt install nvidia-vpi
+  670  python jetsonInfo.py 
+  671  cd
+  672  ls
+  673  cd object_detection_project/
+  674  cd jetson-inference/
+  675  vim run_detection.sh
+  676  sh run_detection.sh 
+  677  vim run_detection.sh
+  678  sh run_detection.sh 
+  679  vim run_detection.sh
+  680  sh run_detection.sh 
+  681  vim detect.py
+  682  python detect.py 
+  683  ls
+  684  apt list | ros
+  685  apt list | grep  ros
+  686  ros 
+  687  rosversion
+  688  echo $ROS_DISTRO
+  689  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  690  sudo apt install curl # if you haven't already installed curl
+  691  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+  692  sudo apt update
+  693  sudo apt install ros-melodic-ros-base
+  694  $ sudo apt-get install ros-melodic-image-transport ros-melodic-vision-msgs
+  695  sudo apt-get install ros-melodic-image-transport ros-melodic-vision-msgs
+  696  cd
+  697  ls
+  698  mkdir -p ~/catkin_ws/src
+  699  ls
+  700  cd catkin_ws/
+  701  catkin_make
+  702  sudo apt install ros-melodic-desktop-full
+  703  source ~/.bashrc
+  704  catkin_make
+  705  sudo cp ~/arebot_ws_arm/98-arebot.rules ./
+  706  ls
+  707  cd jetsonUtilities/
+  708  python jetsonInfo.py 
+  709  cd /usr
+  710  ls
+  711  cd local
+  712  ls
+  713  cd src
+  714  ls
+  715  cd ..
+  716  find / -name "*.pc" -type f
+  717  find / -name "opencv*.pc" -type f
+  718  rosdep install --from-paths src --ignore-src -r -y
+  719  sudo rosdep install --from-paths src --ignore-src -r -y
+  720  rosdep init
+  721  rosdep update
+  722  rosdep update --rosdistro=melodic
+  723  rosdep install --from-paths src --ignore-src -r -y
+  724  ls
+  725  catkin_make
+  726  sudo apt install rox-melodic-cv-bridge
+  727  sudo apt install ros-melodic-cv-bridge
+  728  catkin_make
+  729  ls
+  730  catkin_make
+  731  sudo apt install pcap
+  732  pkg-connfig --modeversion opencv
+  733  pkg-connfig --modversion opencv
+  734  pkg-config --modversion opencv
+  735  sudo apt-get install libpcap-dev 
+  736  catkin_make
+  737  cd /dev
+  738  ls
+  739  cd /dev
+  740  ls
+  741  cd arebot_ws_arm/
+  742  ls
+  743  source ./devel/setup.bash 
+  744  roslaunch arebot_base arebot_base.launch 
+  745  cd /dev
+  746  ls
+  747  rostopic list
+  748  rostopic pub /cmd_vel geometry_msgs/Twist "linear:
+  749    x: 0.50
+  750    y: 0.0
+  751    z: 0.0
+  752  angular:
+  753    x: 0.0
+  754    y: 0.0
+  755    z: 0.0" 
+  756  usermod -a -G dialout $USER
+  757  sudo usermod -a -G dialout $USER
+  758  cd arebot_ws_arm/
+  759  source ./devel/setup.bash 
+  760  roslaunch arebot_base arebot_base.launch 
+  761  rostopic list
+  762  ls
+  763  rostopic pub /cmd_vel geometry_msgs/Twist "linear:
+  x: 0.50
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 0.0" 
+  764  history
+  765  history >history.txt

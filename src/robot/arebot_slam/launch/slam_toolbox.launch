@@ -1,0 +1,9 @@
+<launch>
+	<include file="$(find arebot_bringup)/launch/arebot.launch"/>
+	<include file="$(find arebot_navigation)/launch/include/move_base.launch"/>
+
+	<node pkg="slam_toolbox" type="async_slam_toolbox_node" name="slam_toolbox" output="screen">
+		<rosparam command="load" file="$(find arebot_slam)/params/slam_toolbox/mapper_params_online_async.yaml" />
+	</node>
+
+</launch>

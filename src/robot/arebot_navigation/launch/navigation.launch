@@ -1,0 +1,20 @@
+<launch>
+    
+    <!-- Arguments -->
+
+    <arg name="map_name" default="map" />
+
+   <!--start robot and laser sensor-->
+   <include file="$(find arebot_bringup)/launch/arebot.launch"/>
+    
+    <!-- Map server -->
+    <arg name="map_file" default="$(find arebot_navigation)/maps/$(arg map_name).yaml"/>
+    <node pkg="map_server" name="map_server"  type="map_server" args="$(arg map_file)" />
+
+    <!-- AMCL used for localization -->
+    <include file="$(find arebot_navigation)/launch/include/amcl.launch" />
+    
+    <!-- Calls navigation stack packages for compatible lingao base -->
+    <!-- Takes reference from env variable LINGAO_MODEL. ie. export LINGAO_MODEL=2wd -->
+    <include file="$(find arebot_navigation)/launch/include/move_base.launch" />
+</launch>

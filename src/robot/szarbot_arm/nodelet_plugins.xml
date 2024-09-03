@@ -1,0 +1,7 @@
+<library path="lib/libszarbot_arm">
+    <class name="SZARBot_ROS/ArmNode" type="SZARBot_ROS::ArmNode" base_class_type="nodelet::Nodelet">
+        <description>
+            Node sending commands to the arm attached to the control board.
+        </description>
+    </class>
+</library>

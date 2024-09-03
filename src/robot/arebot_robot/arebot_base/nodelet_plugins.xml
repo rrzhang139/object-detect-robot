@@ -1,0 +1,7 @@
+<library path="lib/libarebot_base">
+    <class name="AREBot_ROS/BaseNode" type="AREBot_ROS::BaseNode" base_class_type="nodelet::Nodelet">
+        <description>
+            Control node for AREBot differential steering wheels.
+        </description>
+    </class>
+</library>

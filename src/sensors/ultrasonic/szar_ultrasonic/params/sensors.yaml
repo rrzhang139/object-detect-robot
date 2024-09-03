@@ -1,0 +1,2 @@
+bus_service_name: "/arebot_control/bus_op"
+ultrasonic_bus: 1

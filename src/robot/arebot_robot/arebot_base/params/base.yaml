@@ -1,0 +1,6 @@
+bus_service_name: "/arebot_control/bus_op"
+wheel_1_reverse: true
+control_frequency: 20
+kp: 2.391
+ki: 31.884
+kd: 0.117

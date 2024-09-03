@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="szar_ultrasonic"
+          args="load AREBot_ROS/UltrasonicNode arebot_nodelet_manager">
+        <rosparam file="$(find szar_ultrasonic)/params/sensors.yaml"/>
+    </node>
+</launch>

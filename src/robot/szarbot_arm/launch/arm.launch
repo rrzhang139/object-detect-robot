@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="szarbot_arm"
+          args="load SZARBot_ROS/ArmNode arebot_nodelet_manager">
+        <rosparam file="$(find szarbot_arm)/params/arm.yaml"/>
+    </node>
+</launch>

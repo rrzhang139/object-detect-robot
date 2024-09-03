@@ -1,0 +1,12 @@
+subscribers:
+  - name:        "Default input"
+    topic:       "/cmd_vel"
+    timeout:     0.5
+    priority:    0
+    short_desc:  "The default cmd_vel"
+  - name:        "Safety controller"
+    topic:       "/arebot_safety_controller/cmd_vel"
+    timeout:     0.1
+    priority:    10
+    short_desc:  "Used with the reactive velocity control provided by the bumper sensor safety controller"
+publisher:       "/mobile_base_controller/cmd_vel"

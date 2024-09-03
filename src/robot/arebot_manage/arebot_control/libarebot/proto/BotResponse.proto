@@ -1,0 +1,57 @@
+/**
+ * Response coming from the control board.
+ *
+ * Copyright 2021 Chuanhong Guo <gch981213@gmail.com>
+ */
+syntax = "proto3";
+
+message BotResponse {
+  oneof body {
+    BusResponse bus_response = 1;
+    IMUInitResult imu_init_result = 2;
+    IMUData imu_data = 3;
+    BatteryVoltage battery_voltage = 4;
+    BumperStatus bumper_status = 5;
+  }
+}
+
+message BusResponse {
+  uint32 bus_id = 1;
+  uint32 data_len = 2;
+}
+
+message IMUInitResult {
+  int32 init_result = 1;
+  int32 test_result = 2;
+  float gyroscope_sensitivity = 3;
+  float accelerometer_sensitivity = 4;
+  float quaternion_sensitivity = 5;
+}
+
+message IMUDataElement {
+  int32 x = 1;
+  int32 y = 2;
+  int32 z = 3;
+}
+
+message Quaternion {
+  int32 w = 1;
+  int32 x = 2;
+  int32 y = 3;
+  int32 z = 4;
+}
+
+message IMUData {
+  IMUDataElement angular_velocity = 1;
+  IMUDataElement linear_acceleration = 2;
+  Quaternion orientation = 3;
+}
+
+message BatteryVoltage {
+  float voltage = 1;
+}
+
+message BumperStatus {
+  uint32 status = 1;
+}
+

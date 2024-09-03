@@ -1,0 +1,7 @@
+<library path="lib/libarebot_control">
+    <class name="AREBot_ROS/BotControlNode" type="AREBot_ROS::BotControlNode" base_class_type="nodelet::Nodelet">
+        <description>
+            Communication node for AREBot control board.
+        </description>
+    </class>
+</library>

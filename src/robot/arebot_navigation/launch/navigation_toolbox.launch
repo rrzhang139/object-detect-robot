@@ -1,0 +1,11 @@
+<launch>
+	<arg name="map_name"/>
+	<include file="$(find arebot_bringup)/launch/arebot.launch"/>
+	<include file="$(find arebot_navigation)/launch/include/move_base.launch" />
+
+	<node pkg="slam_toolbox" type="localization_slam_toolbox_node" name="slam_toolbox" output="screen">
+		<rosparam command="load" file="$(find arebot_slam)/params/slam_toolbox/mapper_params_localization.yaml" />
+        <param name="map_file_name" value="$(arg map_name)" />
+	</node>
+
+</launch>
