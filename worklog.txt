@@ -1,0 +1,28 @@
+Mon, Aug 26
+- Connected Rviz with robot, measured distance traveled 1m and compared to visualization data
+- implemented path finding algorithm, basic one that when reaches an obstacle, will orient direction and check if it faces another obstacle, until it is free, then 
+
+Wed, August 28
+- Lost the SD card on Nvidia's Jetson Xavier NX gpu, had to install dependencies which almost took whole day (annoying ARM!)
+- set up docker container for object detection. Build on top of it and can learn the repo soon
+- got CAMERA working on Jetson inference repo 
+
+Thurs, August 29
+- Moved ROS code from old Raspberry Pi board to Jetson 
+- Got moving working
+- installed robot arm and successfully tested movement and grab
+- Moved detect net node to our ROS config 
+- setup basic node inputting detection data and outputting movement of robot wheels
+- derive simple algorithm to center the bounding box
+- successfully moved car toward desired object
+
+Fri, August 30
+ - Try to slow down the robot as we approach. Use ultrasound in detection node to begin slowdown. 
+- Implemented simple state machine for E2E task execution. Hardcoded some movements
+- Got apriltags working, input into our ROS node for locating object.
+- Replaced newer camera, range still bad, also thinking about robustness in detect net performance. 
+
+Mon, September 2
+- Finetuning model with specific office items for grabbing, changed resolution from 300 to 512
+- Cleaned up launch file. Turned off annoying logs
+- Tried writing code for obtaining apriltag world coords. Realize need hand-eye coordination with the arm. 
