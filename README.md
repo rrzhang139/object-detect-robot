@@ -1,10 +1,10 @@
 # Object detection and manipulation robot using Jetson Xavier NX GPU
 
 ## 1. Introduction
-![Detection and Movement](detection.gif) 
-![Final Robot](final.jpg)
-![Original](original.jpg)
-![Inside](inside.jpg)
+![Detection and Movement](public/detection.gif) 
+![Final Robot](public/final.jpg)
+![Original](public/original.jpg)
+![Inside](public/inside.jpg)
 
 
 This is a GPU-based object detection and robot movement on a basic robot platform using NVIDIA Xavier NX. 
